@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>软件分享</title>
+    <link rel="stylesheet" href="./home/rjfx.css">
+    <script src="./home/rjfx.js"></script>
+    <script src="./home/jquery3.6.3.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 下拉框选择分类 -->
+    <div class="sel_div">
+        <em class="em_ae">板块：</em>
+        <select name="plate" id="plate" onchange="sect_data()" class="bod_red">
+            <option value="">请选择板块</option>
+            <option value="PC端">PC端</option>
+            <option value="移动端">移动端</option>
+        </select>
+        <em class="em_ae">类别：</em>
+        <select name="classes" id="classes" class="bod_red">
+            <option value="">请选择类别</option>
+        </select>
+        <em class="em_ae">名称：</em>
+        <input type="text" name="name" id="name" class="bod_red">
+        <em class="em_ae">链接地址：</em>
+        <input type="text" name="url" id="url" class="bod_red">
+        <em class="em_ae">标题：</em>
+        <input type="text" name="title" id="title" class="bod_red">
+        <em class="em_ae">密码：</em>
+        <input type="text" name="pwd" id="pwd" class="bod_red">
+        <em class="em_ae">回复内容：</em>
+        <input type="text" name="reply" id="reply" class="bod_red">
+        <em class="em_ae">注释说明：</em>
+        <input type="text" name="remarks" id="remarks" class="bod_red"><br>
+    </div>
+    <div class="btn_div" id="">
+        <input type="button" value="提交数据" class="bod_red" onclick="up_data()">
+        <em>远程返回数据</em>
+        <textarea name="int_ret_data" id="int_ret_data" cols="30" rows="10" class="ret_data"></textarea>
+        <div>
+            <p>这里应该有一个数据视图</p>
+            <p>主数据视图：每一个板块/类别数据量，这是主数据视图</p>
+            <p>副数据视图：近日/今日新增数据量/删除数据量</p>
+        </div>
+    </div>
+
+    <!-- 登录界面
+    <div class="login" id="login">
+        <em>账号:</em>
+        <input type="text" name="user_name" id="user_name">
+        <em>密码:</em>
+        <input type="password" name="user_pwd" id="user_pwd">
+        <input type="button" value="登录">
+    </div> -->
+</body>
+
+</html>

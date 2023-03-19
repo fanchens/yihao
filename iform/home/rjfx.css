@@ -1,0 +1,46 @@
+/* 通用属性 */
+
+.sel_div {
+    /* 所有下拉框区域 */
+    width: 50%;
+    height: 80%;
+    text-align: left;
+    border-radius: 35px;
+    background-color: rgba(0, 255, 255, 0.278);
+    padding-left: 10%;
+    float: left;
+}
+
+.btn_div {
+    /* 提交数据 */
+    width: 35%;
+    height: 80%;
+    float: left;
+    border-radius: 15px;
+    background-color: rgba(255, 228, 196, 0.349);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.em_ae {
+    /* 设置em标签样式 */
+    font-size: 150%;
+    width: 30%;
+    display: block;
+}
+
+.bod_red {
+    /* margin-top: 1%; */
+    display: block;
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* 返回数据展示 */
+.ret_data {
+    width: 90%;
+    height: 105px;
+    border-radius: 5px;
+}

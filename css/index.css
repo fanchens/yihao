@@ -1,0 +1,106 @@
+body {
+    background-image: url(../img/5a16b676e0cd8.jpg);
+    /* background: no-repeat; */
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* 去除所有默认样式 */
+* {
+    margin: 0;
+    /* padding: 0; */
+    text-decoration: none;
+    color: black;
+    background-image: none;
+}
+
+/* 头部样式 */
+.nav {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(103, 103, 248, 0.65);
+    text-align: left;
+}
+
+.nav a {
+    /* 设置字体 */
+    font-size: 22px;
+    margin-left: 5%;
+    /* background-color: rgb(238, 60, 251); */
+    /* 文件居中放置 */
+    text-align: center;
+}
+
+/* 左侧目录 */
+.catalog {
+    width: 15%;
+    height: 100%;
+    background-color: rgba(84, 60, 98, 0.582);
+    /* 字体居中 */
+    text-align: center;
+    float: left;
+}
+
+/* 排除第一个元素 */
+.catalog a:not(:nth-child(1)) {
+    /* 将其设为块级元素 */
+    display: block;
+    /* 字体 */
+    font-size: 140%;
+    /* margin-left: 1%; */
+    margin-top: 10%;
+}
+
+/* 只设置第一个元素 */
+.catalog a:nth-child(1) {
+    /* 将其设为块级元素 */
+    display: block;
+    /* 字体 */
+    font-size: 160%;
+    margin-left: 1%;
+}
+
+/* 主体样式 */
+.subject {
+    float: left;
+    width: 85%;
+    height: 100%;
+    background-color: rgba(59, 123, 123, 0.568);
+}
+
+/* 主体里边的标题 */
+.sub_h {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    /* 设置字体渐变色 */
+    background-image: linear-gradient(to bottom, rgb(102, 68, 254), rgb(196, 218, 53));
+    /* 渐变配置 */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 主体表格 */
+.subject table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.td_va {
+    margin-left: 10%;
+    background-color: rgba(32, 152, 185, 0.61);
+}
+
+/* 内嵌界面 */
+.ifr{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
